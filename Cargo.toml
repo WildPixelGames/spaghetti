@@ -2,6 +2,15 @@
 name = "spaghetti"
 version = "0.1.0"
 edition = "2021"
+authors = ["Artur Wyszyński <artur.wyszynski@wildpixelgames.com>"]
+description = "Logic simulator with graphical editor"
+homepage = "https://spaghetti.rs"
+repository = "https://github.com/WildPixelGames/spaghetti"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+exclude = [".github/**/*"]
+keywords = ["simulation", "logic", "gates", "editor", "spaghetti"]
+categories = ["simulation", "embedded", "game-development", "hardware-support"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
