@@ -15,3 +15,7 @@ categories = ["simulation", "embedded", "game-development", "hardware-support"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sentry = { version = "0.25", optional = true }
+
+[features]
+sentry = ["dep:sentry"]
